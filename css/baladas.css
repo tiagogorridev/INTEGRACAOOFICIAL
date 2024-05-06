@@ -1,0 +1,200 @@
+/* BODY */
+
+* {
+  font-size: 17px;
+  font-family: sans-serif;  color: #666;
+  justify-content: center;
+  text-align: center;
+  line-height: 2;
+  overflow-x: hidden;
+  text-decoration: none;
+}
+body {
+  background: black;
+}
+
+
+
+/* HEADER */
+header {
+  padding: 20px 70px;
+}
+.navigation {
+  display: flex;
+  align-items: center; /*alinha horizontalmente*/
+  justify-content: space-between; /*colocar um elemento do outro lado*/
+  background: black;
+}
+.navigation .logo {
+  width: 60px;
+}
+.navigation ul {
+  display: flex; /*deixa os itens alinhados*/
+  align-items: center;
+  gap: 60px;
+}
+.navigation ul li a {
+  color: #888;
+  font-weight: 600px;
+  padding-bottom: 4px;
+}
+/*mudar quando passa o mouse*/
+.navigation ul li a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+
+
+/* IMAGENS DAS BALADAS */
+
+section {
+  width: 100vw;
+}
+section.imagem {
+  background-color: rgba(0, 0, 0, 0.616);
+  color: white;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.466);
+  background-size: cover;
+  background-attachment: fixed;
+}
+section#img01 {
+  background-image: url('../Imagens/shed.jpg.webp');
+  background-position: right center;
+  width: 1920px;
+  height: 500px;
+  
+}
+section#img02 {
+  background-image: url('../Imagens/55.webp');
+  background-position: right center;
+  width: 1920px;
+  height: 500px;
+}
+section#img03 {
+  background-image: url('../Imagens/rw.jpg');
+  background-position: right center;
+  width: 1920px;
+  height: 500px;
+}
+section#img04 {
+  background-image: url('../Imagens/55.jpeg');
+  background-position: right center;
+  width: 1920px;
+  height: 500px;
+}
+section#img05 {
+  background-image: url('../Imagens/vibe.png');
+  background-position: right center;
+  width: 1920px;
+  height: 500px;
+}
+
+
+
+/* TITULOS */
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color: #de2e6fb0;
+  padding-left: 20rem;
+  
+  
+}
+h2{
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  
+}
+.nomes_balada, .titulos {
+    font-size: 22px;
+    font-weight: bolder;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #1d1d1f;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+
+/* LISTAS */
+.listas {
+  font-size: 22px;
+  padding: 5px;
+  border-radius: 5px;
+  width: fit-content;
+  display: inline-block;
+  background-color: #1d1d1f;
+  padding: 5px;
+  border-radius: 5px;
+}
+.listas1, .p {
+    text-align: center;
+    font-size: 15px;
+    background-color: #1d1d1f;
+    margin: 10px 15px 20px 25px;
+    border-radius: 5px;
+}
+
+/* TABLE20 */
+.container {
+    display: flex;
+  }
+.container img {
+  height: 40%;
+  float: left;
+  margin-right: 20px;
+}
+.container table {
+  width: 50%;
+  float: left;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #1d1d1f;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+  background-color: #1d1d1f;
+  padding: 5px;
+  border-radius: 5px;
+}
+th {
+  background-color: #1d1d1f;
+  font-weight: bold;
+}
+
+/* FOOTER */
+#copyright {
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  width: fit-content;
+  display: inline-block;
+  color: #666;
+  background-color: #1d1d1f;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* SOMBRAS */
+.sombras{
+  border: solid thick rgba(105, 0, 0, 0.945);
+  border-radius: 1em;
+  box-shadow: rgba(208, 7, 81, 0.53) 0.5em 0.5em 0.5em;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  

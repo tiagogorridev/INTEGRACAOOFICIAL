@@ -1,0 +1,105 @@
+* {
+    border: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size:  17px;
+    line-height: 2;
+    text-justify: auto;
+    color: #666;
+}
+
+
+#melhoresbares {
+    margin: 0 auto;
+    max-width: 1336px;
+    width: 100%;
+}
+
+header  {
+    background: rgb(193, 234, 232);
+    padding: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+
+}
+
+header h1 {
+    font-family: Verdana, serif;
+    font-size: 30px;
+}
+
+
+.bares {
+    margin-top: 25px
+}
+
+.bares .container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+
+}
+
+.photoBares article {
+    margin-left: 30px;
+    width: 500px;
+    height: 300px;
+    display: block;
+}
+
+
+.photoBares  img {
+    height: 300px;
+    width: 500px ;
+    object-fit: cover;
+}
+
+.photoBares a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    background: rgb(193, 234, 232);
+}
+
+.photoBares a:hover {
+    background: rgb(141, 203, 198);
+}
+
+.infoBares {
+    width: 500px;
+    margin-left: 50px;
+    max-height: 350px;
+    min-width: 200px;
+    overflow: scroll;
+}
+
+.infoBares h2 {
+    font-size: 20px;
+}
+
+.infoBares ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.tabela .container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+td, th {
+    padding: 15px;
+}
+
+th {
+    background-color: rgb(141, 203, 198);
+
+}
+
+td {
+    background: rgb(193, 234, 232);
+}
+
+

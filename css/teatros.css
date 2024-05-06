@@ -1,0 +1,133 @@
+body {
+    background-color: white;
+    text-align: justify;
+    line-height: 2;
+    font-size: 17px;
+    font-family: 'sans-serif';
+    color: #666;
+}
+
+p {
+    text-align: justify;
+}
+
+
+
+
+
+
+
+.titulo {
+    font-family: Verdana;
+    font-size: 17px;
+
+}
+
+
+
+
+h1 {
+
+    font-family: Verdana;
+    font-size: 30px;
+   
+}
+
+.tabela a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.tabela ul {
+    text-align: center;
+    
+
+}
+
+.tabela li {
+    text-align: center;
+    border: 1px solid black;
+    width: 200px;
+    background-color:rgb(122 163 161);
+    
+
+}
+
+
+
+img {
+    width: 700px;
+    border: 2px solid black;
+    
+    
+}
+
+.teatroguaira li {
+    color: black;
+    list-style-type: none;
+    
+}
+
+.teatropaiol li {
+    color: black;
+    list-style-type: none;
+}
+
+.TeatroPositivo li {
+    color: black;
+    list-style-type: none;
+}
+.operadearame li {
+    color: black;
+    list-style-type: none;
+}
+
+
+.teatroguaira {
+    text-align: center;
+  
+}
+
+.operadearame {
+    text-align: center;
+    border: 40px;
+}
+
+.TeatroPositivo {
+    text-align: center;
+    margin: 165px;
+}
+
+.teatropaiol {
+    text-align: center;
+    margin: 60px;
+        
+}
+
+.teatroguaira h1 {
+    margin: 10px;
+}
+
+.teatropaiol h1 {
+    margin: 10px;
+}
+
+
+.TeatroPositivo h1 {
+    margin: 10px;
+}
+
+
+.operadearame h1 {
+    margin: 10px;
+}
+
+
+
+img:hover {
+    filter: grayscale(100%);
+}
+
+
